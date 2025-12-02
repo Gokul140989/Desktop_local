@@ -1,1 +1,19 @@
 My first git notes 
+
+==========================
+
+### III. Remote Repository Connection and Upload Commands
+
+These commands connect the local repository to the remote GitHub repository and push the committed work online:
+
+1.  **Connect Local to Remote:**
+  git remote add origin https://github.com/Gokul140989/Desktop_local.git
+        *   *Purpose:* This command (which is provided by GitHub upon repository creation) connects the local system to the specified GitHub repository, enabling subsequent movement of files.
+
+2.  **Set Branch Name:**
+    *   git branch -M main
+        *   *Purpose:* Ensures the local branch is named 'main' (in case it defaults to 'master' on some systems).
+
+3.  **Push Changes to GitHub:**
+    *   git push -u origin main
+        *   *Purpose:* Uploads the locally committed changes to the remote repository on GitHub
